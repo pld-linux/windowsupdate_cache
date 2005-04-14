@@ -1,0 +1,9 @@
+Listen 8000
+Alias /cache "/var/cache/windows_update/cache"
+
+<Directory "/var/cache/hwindows_update/cache/">
+	Options Indexes MultiViews
+	AllowOverride None
+	Order allow,deny
+	Allow from all
+</Directory>
