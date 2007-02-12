@@ -1,7 +1,7 @@
 # TODO
 # - webapps
 Summary:	WindowsUpdate Cache
-Summary(pl):	Proxy-Cache dla Windows Update
+Summary(pl.UTF-8):   Proxy-Cache dla Windows Update
 Name:		windowsupdate_cache
 Version:	20050414
 Release:	0.2
@@ -24,24 +24,24 @@ windowsupdate, rather it only stops you re-downloading files that have
 already been fetched (ie. it's a cache not a clone). Please read
 included README file for setup instructions.
 
-%description -l pl
-S± to skrypty u¿ywane przez autora do cache'owania plików z witryny
-Microsoftu (w³±czaj±c Windows Update). Nale¿y zauwa¿yæ, ¿e to nie jest
-"klon" serwisu windowsupdate, tylko prosty sposób na nie ¶ci±ganie
-ponownie plików, które s± ju¿ w magazynie. Proszê przeczytaæ za³±czony
-plik README z instrukcj± u¿ycia.
+%description -l pl.UTF-8
+SÄ… to skrypty uÅ¼ywane przez autora do cache'owania plikÃ³w z witryny
+Microsoftu (wÅ‚Ä…czajÄ…c Windows Update). NaleÅ¼y zauwaÅ¼yÄ‡, Å¼e to nie jest
+"klon" serwisu windowsupdate, tylko prosty sposÃ³b na nie Å›ciÄ…ganie
+ponownie plikÃ³w, ktÃ³re sÄ… juÅ¼ w magazynie. ProszÄ™ przeczytaÄ‡ zaÅ‚Ä…czony
+plik README z instrukcjÄ… uÅ¼ycia.
 
 %package apachestorage
 Summary:	WindowsUpdate Cache
-Summary(pl):	Proxy-Cache dla Windows Update
+Summary(pl.UTF-8):   Proxy-Cache dla Windows Update
 Group:		Applications
 Requires:	webserver = apache
 
 %description apachestorage
 This is apache-based storage for windowsupdate_cache.
 
-%description apachestorage -l pl
-To jest bazuj±cy na apache magazyn dla windowsupdate_cache.
+%description apachestorage -l pl.UTF-8
+To jest bazujÄ…cy na apache magazyn dla windowsupdate_cache.
 
 %prep
 %setup -q -n %{name}
