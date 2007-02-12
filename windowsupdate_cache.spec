@@ -1,7 +1,7 @@
 # TODO
 # - webapps
 Summary:	WindowsUpdate Cache
-Summary(pl.UTF-8):   Proxy-Cache dla Windows Update
+Summary(pl.UTF-8):	Proxy-Cache dla Windows Update
 Name:		windowsupdate_cache
 Version:	20050414
 Release:	0.2
@@ -33,7 +33,7 @@ plik README z instrukcją użycia.
 
 %package apachestorage
 Summary:	WindowsUpdate Cache
-Summary(pl.UTF-8):   Proxy-Cache dla Windows Update
+Summary(pl.UTF-8):	Proxy-Cache dla Windows Update
 Group:		Applications
 Requires:	webserver = apache
 
